@@ -3,7 +3,7 @@ import {BsSearch} from 'react-icons/bs'
 import ProfileDetails from '../ProfileDetails'
 import './index.css'
 
-const FiltersGroup = props => {
+const FiltersDetails = props => {
   const onChangeSearchInput = event => {
     const {changeSearchInput} = props
     changeSearchInput(event)
@@ -130,4 +130,4 @@ const FiltersGroup = props => {
     </div>
   )
 }
-export default FiltersGroup
+export default FiltersDetails

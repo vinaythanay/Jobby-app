@@ -3,7 +3,7 @@ import Cookies from 'js-cookie'
 import Loader from 'react-loader-spinner'
 import {BsSearch} from 'react-icons/bs'
 import Header from '../Header'
-import FiltersGroup from '../FiltersGroup'
+import FiltersDetails from '../FiltersDetails'
 import JobCard from '../JobCard'
 
 import './index.css'
@@ -228,7 +228,7 @@ class Jobs extends Component {
         <Header />
         <div className="jobs-container">
           <div className="jobs-content">
-            <FiltersGroup
+            <FiltersDetails
               employmentTypesList={employmentTypesList}
               salaryRangesList={salaryRangesList}
               changeSearchInput={this.changeSearchInput}
